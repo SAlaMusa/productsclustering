@@ -72,7 +72,7 @@ def main():
             st.image(row['image'], caption=row['name'], use_column_width=True)
 
             st.write(row['name'])
-            st.write(f"Product Name: {row['name']}")
+            # st.write(f"Product Name: {row['name']}")
             st.write(f"Main Category: {row['main_category']}")
            
             st.write(f"Ratings: {row['ratings']}")
